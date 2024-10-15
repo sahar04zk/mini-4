@@ -1,0 +1,135 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: byekan;
+}
+@font-face{
+    font-family:"byekan";
+    src:url('../font/Byekan.ttf') format('truetype'),
+        url('../font/Byekan.woff') format('woff')
+}
+@font-face{
+    font-family:"lalezar";
+    src:url('../font/lalezar.ttf') format('truetype'),
+        url('../font/lalezar.woff') format('woff')
+}
+.header{
+    background-color: pink;
+    background-blend-mode: multiply;
+    height: 750px;
+    background-image: url('../images/7.jpeg');
+    padding-top: 60px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.list{
+    list-style-type: none;
+}
+.item{
+    display: inline-block;
+}
+.item a{
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    padding: 27px;
+}
+.item a:hover{
+    color:orange;
+    font-family: lalezar;
+}
+.title{
+    color:white;
+    font-size: 50px;
+    margin-top: 70px;
+}
+.title span{
+    color:orange;
+}
+.paragraf{
+    color:white;
+    border:1px solid white;
+    border-radius: 20px;
+    width:360px;
+    margin: auto;
+    padding: 7px;
+    margin-top: 30px;
+}
+.movie{
+    margin-top: 60px;
+    text-align: center;
+    background-color: #fffaf3;
+}
+.movie h5{
+    font-size: 30px;
+}
+.series{
+    list-style-type: none;
+    margin: 40px;
+}
+.film{
+    box-shadow: 0 0 15px #bbbbbb;
+    display: inline-block;
+    width: 350px;
+    margin: 15px;
+}
+.film img{
+    width: 100%;
+}
+.film h2{
+    font-size: 18px;
+    margin: 5px;
+}
+.film h2:hover{
+    color: #574a3b;
+}
+.film p{
+    text-align: justify;
+    padding: 20px;
+}
+.about{
+    margin-top:50px;
+    height: 700px;
+    text-align: center;
+    background-image: url('../images/m.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    background-color: #4a3636;
+    background-blend-mode: multiply;
+}
+.circle{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color:rgba(135,135,135,.3);
+    padding: 120px;
+    margin: auto;
+    color:white;
+}
+.circle p{
+    text-align: justify;
+    padding: 30px;
+}
+.footer{
+    background-color:#aa9484ab;
+    height: 200px;
+    padding-top: 40px;
+    text-align: center;
+}
+.color{
+    height: 90px;
+    background-color: #918782;
+    padding: 10px;
+}
+.footer p{
+    padding-top: 10px;
+}
